@@ -1,0 +1,32 @@
+.container {
+  background-color: cornflowerblue;
+  height: 400px;
+  font-size: 0;
+}
+.kitten-image {
+  background-image: url("https://pbs.twimg.com/profile_images/729340597904023552/V8NpDCzU_400x400.jpg");
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.col-33 {
+  width: 33.33%;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+img.fits {
+  max-height: 100%;
+  max-width: 100%;
+}
+.vertical-align-helper {
+  height: 100%;
+  width: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.text {
+  font-size: 16px;
+}
