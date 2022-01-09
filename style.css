@@ -1,3 +1,4 @@
+/*
 .container {
   background-color: cornflowerblue;
   height: 400px;
@@ -29,4 +30,26 @@ img.fits {
 }
 .text {
   font-size: 16px;
+}
+*/
+.container {
+  background-color: cornflowerblue;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+.kitten-image {
+  background-image: url("https://pbs.twimg.com/profile_images/729340597904023552/V8NpDCzU_400x400.jpg");
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+img.fits {
+  max-height: 100%;
+  max-width: 100%;
+}
+.col-33 {
+  width: 33.33%;
+  padding: 0 10px;
 }
